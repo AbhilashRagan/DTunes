@@ -1,0 +1,103 @@
+body
+{
+    padding : 0px;
+    margin : 0px;
+    overflow : hidden;
+}
+
+.background
+{
+    height : 100vh;
+    width : 100vw;
+}
+
+.contents
+{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    border : 1px solid white;
+    border-radius : 30px;
+    display : block;
+    align-items : center;
+    justify-content : center;
+    text-align : center;
+    padding : 40px;
+    box-shadow : 0px 0px 20px 6px white;
+}
+
+.contents h1
+{
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size : 64px;
+    color : white;
+}
+
+.contents input[type = "text"]
+{
+    color : black;
+    background-color : white;
+    border-radius : 18px;
+    font-size : 32px;
+    border : 2px solid black;
+    padding : 5px;
+    padding-left : 15px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width : 430px;
+    outline : none;
+}
+
+.contents input[type = "password"]
+{
+    color : black;
+    background-color : white;
+    border-radius : 18px;
+    font-size : 32px;
+    border : 2px solid black;
+    padding : 5px;
+    padding-left : 15px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width : 430px;
+    outline : none;
+}
+
+.contents input[type = "submit"]
+{
+    background-color : black;
+    color : white;
+    font-size : 48px;
+    padding : 20px;
+    padding-left : 30px;
+    padding-right : 30px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border : 2px solid black;
+    border-radius : 20px;
+}
+
+.contents .error
+{
+    font-size : 16px;
+    text-align : left;
+    font-family : Arial, Helvetica, sans-serif;
+    color : red;
+}
+
+.contents .redirect
+{
+    display : inline-flex;
+}
+
+.contents .redirect h1
+{
+    font-size : 16px;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.contents .redirect a
+{
+    font-size : 16px;
+    color : white;
+    font-family : Arial, Helvetica, sans-serif;
+    text-decoration : underline;
+}

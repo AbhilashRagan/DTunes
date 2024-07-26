@@ -1,0 +1,106 @@
+.background
+{
+    height : 100vh;
+    width : 100vw;
+}
+
+.favourite
+{
+    position : absolute;
+    top : 50%;
+    right : 10px;
+    transform : translate(0%, -50%);
+    height : 700px;
+    width : 400px;
+    border : 3px solid white;
+    border-radius : 20px;
+    display : block;
+    align-items : center;
+    text-align : center;
+    justify-content : center;
+    padding : 20px;
+    font-size : 48px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color : white;
+}
+
+.favourite .artistImage
+{
+    height : 200px;
+    width : 200px;
+}
+
+.favourite .details
+{
+    font-size : 32px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color : white;
+    overflow : hidden;
+    text-align : left;
+    padding-left : 60px;
+}
+
+.container
+{
+    position : absolute;
+    bottom : 10px;
+    left : 22%;
+    font-size : 32px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color : white;
+}
+
+.popularTracks
+{
+    border : 3px solid white;
+    border-radius : 20px;
+    height : 250px;
+    width : 800px;
+    display : flex;
+    align-items : center;
+    overflow-y : scroll;
+    padding-left : 10px;
+}
+
+.popularTracks::-webkit-scrollbar
+{
+    width : 0px;
+}
+
+.popularTracks img
+{
+    height : 200px;
+    width : 200px;
+}
+
+.newreleases
+{
+    position : absolute;
+    top : 30px;
+    left : 22%;
+    font-size : 48px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color : white;
+    display : block;
+    align-items : center;
+    justify-content : center;
+}
+
+.newreleases .albums
+{
+    border : 3px solid white;
+    border-radius : 20px;
+    height : 370px;
+    width : auto;
+    display : grid;
+    grid-template-columns : 180px 180px 180px;
+    grid-template-rows : 180px;
+    gap : 15px;
+    padding : 20px;
+}
+
+.newreleases .albums img
+{
+    height : 180px;
+    width : 180px;
+}

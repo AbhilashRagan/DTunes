@@ -1,0 +1,78 @@
+.player
+{
+    width : 900px;
+    height : 100px;
+    position : absolute;
+    bottom : 0px;
+    left : 50%;
+    transform : translate(-50%, 0%);
+    background-color : black;
+    border : 5px solid black;
+    border-radius : 20px;
+    display : inline-flex;
+    align-items : center;
+    justify-content : center;
+}
+
+.player .trackimage
+{
+    height : 85px;
+    width : 85px;
+    position : absolute;
+    left : 40px;
+}
+
+.trackdetails
+{
+    text-align : center;
+    color : white;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display : block;
+}
+
+.trackdetails h1
+{
+    font-size : 32px;
+}
+
+.trackdetails marquee
+{
+    font-size : 16px;
+    width : 200px;
+    color : rgb(149, 149, 149);
+}
+
+.like
+{
+    height : 30px;
+    width : 30px;
+    position : absolute;
+    right : 150px;
+}
+
+.controls
+{
+    display : inline-flex;
+    align-items : center;
+    justify-content : center;
+    position : absolute;
+    right : 40px;
+}
+
+.controls .playpause
+{
+    height : 50px;
+    width : 50px;
+}
+
+.controls .next
+{
+    height : 30px;
+    width : 30px;
+    opacity : 0.5;
+}
+
+.PlayerRSWP
+{
+    display : none;
+}

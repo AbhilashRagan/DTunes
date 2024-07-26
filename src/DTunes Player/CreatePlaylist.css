@@ -1,0 +1,168 @@
+.background
+{
+    height : 100vh;
+    width : 100vw;
+}
+
+.createcontent
+{
+    position : absolute;
+    top : 0px;
+    left : 50%;
+    transform : translate(-50%, 0%);
+    display : block;
+    align-items : center;
+    text-align : center;
+}
+
+.searchplaylist
+{
+    position : relative;
+}
+
+.searchplaylist input
+{
+    font-size : 32px;
+    background-color : white;
+    color : black;
+    border : 2px solid white;
+    border-radius : 40px;
+    padding : 10px;
+    padding-left : 50px;
+    outline : none;
+}
+
+.searchplaylist img
+{
+    height : 30px;
+    width : 30px;
+    position : absolute;
+    top : 15px;
+    left : 215px;
+}
+
+.songlist
+{
+    padding : 25px;
+    border : 3px solid white;
+    border-radius : 20px;
+    overflow-y : scroll;
+    overflow-x : hidden;
+}
+
+.playlistdetails
+{
+    display : block;
+    align-items : left;
+    text-align : center;
+}
+
+.playlistdetails h1
+{
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size : 32px;
+    color : white;
+}
+
+.playlistdetails img
+{
+    height : 150px;
+    width : 150px;
+}
+
+.playlistdetails input
+{
+    font-size : 24px;
+    background-color : white;
+    color : black;
+    border : 2px solid white;
+    border-radius : 40px;
+    padding : 10px;
+    padding-left : 20px;
+    outline : none;
+}
+
+.playlistdetails .error
+{
+    font-size : 16px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color : red;
+    text-align : left;
+}
+
+.playlistdetails button
+{
+    font-size : 24px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color : white;
+    border : none;
+    border-radius : 40px;
+    padding : 20px;
+    padding-left : 30px;
+    padding-right : 30px;
+}
+
+.createcontent .songlist
+{
+    height : 250px;
+    width : 800px;
+    padding : 25px;
+}
+
+.songlist .elem
+{
+    display : flex;
+    align-items : center;
+}
+
+.elem img
+{
+    height : 100px;
+    width : 100px;
+}
+
+.elem .name
+{
+    font-size : 30px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color : white;
+}
+
+.elem .artists
+{
+    font-size : 15px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color : rgb(105, 105, 105);
+}
+
+.createcontent .createbutton
+{
+    font-size : 32px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border : 3px solid cyan;
+    border-radius : 40px;
+    background-color : cyan;
+    color : white;
+    padding : 10px;
+    padding-left : 20px;
+    padding-right : 20px;
+    position : absolute;
+    bottom : 20px;
+    right : -160px;
+}
+
+.createcontent .abortbutton
+{
+    font-size : 32px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border : 3px solid cyan;
+    border-radius : 40px;
+    background-color : cyan;
+    color : white;
+    padding : 10px;
+    padding-left : 20px;
+    padding-right : 20px;
+    position : absolute;
+    bottom : 20px;
+    left : -140px;
+}
